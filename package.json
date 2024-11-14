@@ -2,7 +2,7 @@
   "name": "motivational_quotes",
   "version": "1.0.0",
   "description": "First project with NPM and utilizing GIT",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server"
@@ -10,6 +10,7 @@
   "author": "Hunter Williams",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3"
   },
   "devDependencies": {
